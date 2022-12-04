@@ -1,0 +1,43 @@
+/* #person-card {
+
+    left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 10.26%;
+  background-color: rgba(54, 44, 44, 0.01);
+  backdrop-filter: blur(280px);
+  border-radius: 500px 60px 300px 100px;
+  width: 800px;
+  height: 739.83px;
+  
+  }
+
+#person-img img {
+    position: absolute;
+    left: 18%;
+    right: 15.25%;
+    top: 16.98%;
+    bottom: 36.56%;
+    border-radius: 200px 20px 100px 50px;
+  }
+  
+  #person-card h1 {
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+  }
+  
+  #person-card h2 {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+  
+  }
+
+  */

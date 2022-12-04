@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/****************************************************/
+/*************CSS reset by Kevin Powell**************/
+/****************************************************/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* remove all the default styling */
+  * {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+  
+  /* make all the media responsive */
+  img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* forms fields and other elements inherit the font properties */
+  input, textarea, button, select {
+    font: inherit;
+  }
+  
+  /****************************************************/
+  /*************       main styles       **************/
+  /****************************************************/
+  
+  :root {
+    --navy: #071594;
+    --dark-olive: #35660E;
+    --dark-grey: #40483A;
+    --body-bgd: #D9D9D9;
+    --container-bgd: #ffffff;
+    --shape-bgd: #362c2c;
+    --text-bdg: #D9D9D9;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  /****************************************************/
+  /*************      app elements       **************/
+  /****************************************************/
+  
+  
+  
+  /****************************************************/
+  /************ site navigation (hidden) **************/
+  /****************************************************/
+  
+  .nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    position: absolute;
+    top: -100px;
+  }
+  
+  
+  /****************************************************/
+  /*************     buttons  styling    **************/
+  /****************************************************/
+  
+  button {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 100%;
+    -webkit-text-stroke: 1px var(--text-bgd);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.75);
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity: 1;
+    transform:  translate(0px, 5px);
+    transition: all 0.1s ease-in-out;
+  }
+  
+  button:active {
+    transform:  translate(0px, 5px);
+    transition: all 0.1s ease-out;
+  }

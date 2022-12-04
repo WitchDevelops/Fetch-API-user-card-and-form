@@ -54,10 +54,10 @@ const eyeInfo = document.createElement("h3");
 heading.innerHTML = personName;
 personDiv.appendChild(heading);
 
-ageInfo.innerHTML = "Born in " + personAge;
+ageInfo.innerHTML = "age: " + personAge;
 personDiv.appendChild(ageInfo);
 
-eyeInfo.innerHTML = "Eye color " + personEyeColor;
+eyeInfo.innerHTML = "eye color: " + personEyeColor;
 personDiv.appendChild(eyeInfo);
 }
 

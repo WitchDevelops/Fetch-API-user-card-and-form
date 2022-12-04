@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Person1() {
+function Person5() {
   
   ///////////////////////////////////////////////
   //fetch data from the given source (text)
@@ -28,7 +28,7 @@ fetch("https://swapi.py4e.com/api/people")
 
 //declare the function to display fetched data
 function displayPerson(data) {
-  const person = data.results[0];
+  const person = data.results[4];
 
 // det element by id (div)
 const personDiv = document.getElementById("person-info");
@@ -85,9 +85,9 @@ personDiv.appendChild(eyeInfo);
     </div>
 
     
-      <a href="/person2"><button class="next-profiles-btn">next profiles</button></a>
+      <a href="/person6"><button class="next-profiles-btn">next profiles</button></a>
     </>
   );
 }
 
-export default Person1;
+export default Person5;

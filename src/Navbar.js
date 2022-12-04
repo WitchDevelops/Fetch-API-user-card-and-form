@@ -4,7 +4,7 @@ export default function Navbar() {
     return <nav className="nav">
         <Link to="/" className="site-title">Dominika Wojewska</Link>
         <ul>
-            <CustomLink to="/form">Formlularz rejestracyjny</CustomLink>
+            <CustomLink to="/form">Formularz rejestracyjny</CustomLink>
         </ul>
     </nav>
 }

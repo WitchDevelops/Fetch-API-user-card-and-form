@@ -63,7 +63,7 @@ personDiv.appendChild(eyeInfo);
     <div id="person-card" class="container">
       
       <div id="person-img">
-        <img src="https://picsum.photos/534/383?random=1.jpg" alt="person profile picture. Here it is a randomly generated image"></img>
+        <img src="https://picsum.photos/534/383?random=1.jpg" alt="person profile pic, randomly generated"></img>
       </div>
 
       <div id="person-info">

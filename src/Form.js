@@ -28,38 +28,35 @@ export default function Form() {
 //TODO:
 //FORM VALIDATION (red messages instead of system default popups)
 // i dunno how to do it :(
+// I tried, but it didn't work - try again in a month or so
 
     return (
     <div class="form">
         <h2>Formularz rejestracyjny</h2>
         <hr></hr>
         <form 
-            role="form" 
-            aria-label="Formularz rejestracyjny" 
             onSubmit={handleSubmit}
             >
 
-            <label for='login'>Login: </label>
+            <label htmlFor='login'>Login: </label>
             <input 
                 name='login' 
                 id='login' 
                 type='text'
-                //this probably needs different handling, but at the moment that's beyond my skill
                 value= {login}
                 onChange={(e) => setLogin(e.target.value)}>
             </input>
 
-            <label for='pass'>Hasło: </label>
+            <label htmlFor='pass'>Hasło: </label>
             <input 
                 name='pass' 
                 id='pass' 
                 type='password'
-                //same here for the password, prolly needs some different type of handling since it's security information
                 value= {pass}
                 onChange={(e) => setPass(e.target.value)}>
             </input>
 
-            <label for='email'>E-mail: </label>
+            <label htmlFor='email'>E-mail: </label>
             <input 
                 name='email' 
                 id='email' 
@@ -69,7 +66,7 @@ export default function Form() {
                 onChange={(e) => setEmail(e.target.value)}>
             </input>
 
-            <label for='phone'>Numer telefonu: </label>
+            <label htmlFor='phone'>Numer telefonu: </label>
             <input 
                 name='phone' 
                 id='phone' 
@@ -79,7 +76,7 @@ export default function Form() {
                 onChange={(e) => setPhone(e.target.value)}>
             </input>
 
-            <label for="accept-policy">
+            <label htmlFor="accept-policy">
                 <input 
                         name="accept-policy"
                         id="accept-policy"
